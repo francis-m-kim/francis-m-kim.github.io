@@ -353,6 +353,7 @@ p a, li a, .thumbnail-caption a {
 /* line 84, ../scss/_custom.scss */
 p a:hover, li a:hover, .thumbnail-caption a:hover, .caption-hover {
   color: #1a5f99;
+
   border-bottom: 1px solid #1a5f99 !important;
 }
 
