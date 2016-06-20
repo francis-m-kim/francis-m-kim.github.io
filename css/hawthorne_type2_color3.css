@@ -4328,9 +4328,16 @@ blockquote,
 th,
 td {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   direction: ltr;
 }
+
+.skills-table td {
+  padding-bottom:10px;
+  padding-right:20px;
+}
+
+
 
 /* Default Link Styles */
 /* line 152, ../bower_components/foundation/scss/foundation/components/_type.scss */
