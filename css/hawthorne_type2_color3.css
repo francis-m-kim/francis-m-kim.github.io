@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+
+@import url(http://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Unlock);
+
 /*==================================================================================================
 Foundation Variables
 ==================================================================================================*/
@@ -39,6 +43,8 @@ Mixins
 /*==================================================================================================
 Blog
 ==================================================================================================*/
+
+
 /* line 28, ../scss/master/_blog.scss */
 aside.blog-sidebar h5 {
   text-align: center;
@@ -46,7 +52,7 @@ aside.blog-sidebar h5 {
 
 /* line 32, ../scss/master/_blog.scss */
 aside.blog-sidebar h5, .related-posts h5 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.125rem;
@@ -58,8 +64,8 @@ aside.blog-sidebar h5, .related-posts h5 {
 
 /* line 43, ../scss/master/_blog.scss */
 aside.blog-sidebar li, aside.blog-sidebar p {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.6;
@@ -99,7 +105,7 @@ article {
 
 /* line 77, ../scss/master/_blog.scss */
 article h1, h1.archive-title {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.5rem;
@@ -110,8 +116,8 @@ article h1, h1.archive-title {
 
 /* line 87, ../scss/master/_blog.scss */
 article h6.date {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.2;
@@ -122,7 +128,7 @@ article h6.date {
 
 /* line 98, ../scss/master/_blog.scss */
 article p, article li {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-size: 0.875rem;
   line-height: 1.5;
 }
@@ -136,8 +142,8 @@ article p a {
 
 /* line 108, ../scss/master/_blog.scss */
 article p.byline {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.2;
@@ -166,7 +172,7 @@ article .caption {
 
 /* line 135, ../scss/master/_blog.scss */
 div div div article h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.3125rem;
@@ -203,8 +209,8 @@ div div div article h3 {
 .related-posts ul li {
   margin-left: 0;
   line-height: 1.8;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.6;
@@ -238,7 +244,7 @@ h1.archive-title {
 
 /* line 194, ../scss/master/_blog.scss */
 .archive-item h2 a:hover {
-  border-bottom: 1px solid #1a5f99;
+  border-bottom: 1px solid rgb(11,176,107);
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
@@ -246,7 +252,7 @@ h1.archive-title {
 
 /* line 199, ../scss/master/_blog.scss */
 .archive-item h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.125rem;
@@ -258,8 +264,8 @@ h1.archive-title {
 
 /* line 210, ../scss/master/_blog.scss */
 .archive-item h6.date {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.3;
@@ -276,8 +282,8 @@ h1.archive-title {
 
 /* line 226, ../scss/master/_blog.scss */
 .pagination-custom p span {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.2;
@@ -347,14 +353,14 @@ p a, li a, .thumbnail-caption a {
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
   border-bottom: 1px solid #9d9995;
-  padding-bottom: 1px;
+  /*padding-bottom: -1px;*/
 }
 
 /* line 84, ../scss/_custom.scss */
 p a:hover, li a:hover, .thumbnail-caption a:hover, .caption-hover {
-  color: #1a5f99;
+  color: rgb(11,176,107);
 
-  border-bottom: 1px solid #1a5f99 !important;
+  border-bottom: 1px solid rgb(11,176,107) !important;
 }
 
 /* line 89, ../scss/_custom.scss */
@@ -369,8 +375,8 @@ div.lined-list ul {
 
 /* line 97, ../scss/_custom.scss */
 .lined-list li {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: inherit;
   line-height: 1.5;
@@ -385,7 +391,7 @@ div.lined-list ul {
 
 /* line 112, ../scss/_custom.scss */
 .lined-list li strong {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: inherit;
@@ -453,7 +459,7 @@ div h1, div h2, div h3, div h4, div h5, div h6 {
 
 /* line 171, ../scss/_custom.scss */
 div div h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.5rem;
@@ -464,7 +470,7 @@ div div h2 {
 
 /* line 181, ../scss/_custom.scss */
 div div h3 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.125rem;
@@ -535,7 +541,7 @@ header div.logo {
 
 /* line 245, ../scss/_custom.scss */
 div div header h1 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-weight: bold;
   font-style: normal;
   font-size: 1.625rem;
@@ -555,8 +561,8 @@ div div header h1 a {
 
 /* line 263, ../scss/_custom.scss */
 div div header h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 0.8125rem;
   line-height: 1.3;
@@ -589,7 +595,6 @@ nav {
   border-top: 1px solid #9d9995;
   border-bottom: 1px solid #9d9995;
   margin-bottom: 3em;
-  background-color: #ece5df;
 }
 
 /* line 298, ../scss/_custom.scss */
@@ -602,8 +607,8 @@ nav ul.inline-list-custom {
 
 /* line 305, ../scss/_custom.scss */
 nav ul.inline-list-custom li {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   line-height: 2;
@@ -653,7 +658,7 @@ Project
   display: none;
   width: 100%;
   height: 100%;
-  background-color: rgba(26, 95, 153, 0.5);
+  background-color: rgba(11,176,107, 0.25) ;
 }
 
 /* line 358, ../scss/_custom.scss */
@@ -671,11 +676,11 @@ Project
 
 /* line 369, ../scss/_custom.scss */
 .thumbnail-caption {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 0.875rem;
-  line-height: 1.5;
+  line-height: 1.75;
   letter-spacing: 0;
   text-transform: none;
   text-align: center;
@@ -714,8 +719,8 @@ hr.project-detail-hr {
 /* line 403, ../scss/_custom.scss */
 .project-img h6 {
   padding-top: 1em;
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -778,8 +783,8 @@ footer ul {
 
 /* line 462, ../scss/_custom.scss */
 footer li {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   font-size: 0.8125rem;
   line-height: 1.6;
@@ -813,7 +818,7 @@ footer div.social-icons i {
 
 /* line 491, ../scss/_custom.scss */
 footer div.social-icons a:hover i {
-  color: #1a5f99;
+  color: rgb(11,176,107);
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
@@ -838,17 +843,17 @@ Media Queries
 
   /* line 513, ../scss/_custom.scss */
   div div header h1 {
-    font-size: 2.25rem;
+    font-size: 5.5rem;
   }
 
   /* line 517, ../scss/_custom.scss */
   div div header h2 {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 
   /* line 521, ../scss/_custom.scss */
   div div h2 {
-    font-size: 1.875rem;
+    font-size: 1.125rem;
   }
 
   /* line 525, ../scss/_custom.scss */
@@ -918,12 +923,12 @@ body {
 
 /* line 325, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: #ece5df;
+  background: rgb(240, 240, 240);
   color: #0a161f;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -1569,8 +1574,8 @@ select {
 /* line 197, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   cursor: pointer;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Heebo";
+  font-weight: 400;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -1605,7 +1610,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 205, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
   border-color: #165183;
   color: white;
 }
@@ -1619,7 +1624,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 206, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
   border-color: #165183;
   color: white;
 }
@@ -1633,7 +1638,7 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 /* line 207, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert, .button.alert {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
   border-color: #165183;
   color: white;
 }
@@ -1722,7 +1727,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 221, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
   border-color: #165183;
   color: white;
   cursor: "default";
@@ -1740,11 +1745,11 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
 }
 /* line 222, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
   border-color: #165183;
   color: white;
   cursor: "default";
@@ -1762,11 +1767,11 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
 }
 /* line 223, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
   border-color: #165183;
   color: white;
   cursor: "default";
@@ -1784,7 +1789,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #1a5f99;
+  background-color: rgb(11,176,107);
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -1869,7 +1874,7 @@ label {
   color: #4d4d4d;
   cursor: pointer;
   display: block;
-  font-weight: normal;
+  font-weight: 400;
   margin-bottom: 0.5rem;
   /* Styles for required inputs */
 }
@@ -2237,9 +2242,9 @@ fieldset legend {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
-  background: #1a5f99;
+  background: rgb(11,176,107);
   color: white;
 }
 /* line 439, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -2254,9 +2259,9 @@ span.error, small.error {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
-  background: #1a5f99;
+  background: rgb(11,176,107);
   color: white;
 }
 
@@ -2269,7 +2274,7 @@ span.error, small.error {
 /* line 452, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
-  color: #1a5f99;
+  color: rgb(11,176,107);
 }
 /* line 457, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > small,
@@ -2279,9 +2284,9 @@ span.error, small.error {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
-  background: #1a5f99;
+  background: rgb(11,176,107);
   color: white;
 }
 /* line 461, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -2297,7 +2302,7 @@ textarea.error {
 
 /* line 470, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label.error {
-  color: #1a5f99;
+  color: rgb(11,176,107);
 }
 
 /* line 190, ../bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -4301,7 +4306,7 @@ p.lead {
 .subheader {
   line-height: 1.4;
   color: #2f6893;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
@@ -4334,7 +4339,7 @@ td {
 
 .skills-table td {
   padding-bottom:10px;
-  padding-right:20px;
+  padding-right:30px;
 }
 
 
@@ -4348,7 +4353,7 @@ a {
 }
 /* line 158, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #1a5f99;
+  color: rgb(11,176,107);
 }
 /* line 160, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -4359,7 +4364,7 @@ a img {
 /* line 164, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p {
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
@@ -4375,8 +4380,8 @@ p aside {
 /* Default header styles */
 /* line 182, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Heebo";
+  font-weight: 400;
   font-style: normal;
   color: #0a161f;
   text-rendering: optimizeLegibility;
@@ -4638,7 +4643,7 @@ blockquote p {
 
   /* line 382, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.875rem;
+    font-size: 1.125rem;
   }
 
   /* line 383, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -4852,7 +4857,7 @@ meta.foundation-mq-topbar {
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
-  font-weight: normal;
+  font-weight: 400;
   color: white;
   width: 50%;
   display: block;
@@ -4954,9 +4959,9 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Heebo";
   font-size: 0.8125rem;
-  font-weight: normal;
+  font-weight: 400;
   background: #333333;
 }
 /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -4972,7 +4977,7 @@ meta.foundation-mq-topbar {
 }
 /* line 302, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background: #1a5f99;
+  background: rgb(11,176,107);
 }
 /* line 304, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary:hover {
@@ -4980,7 +4985,7 @@ meta.foundation-mq-topbar {
 }
 /* line 308, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
-  background: #1a5f99;
+  background: rgb(11,176,107);
 }
 /* line 310, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success:hover {
@@ -4988,7 +4993,7 @@ meta.foundation-mq-topbar {
 }
 /* line 314, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
-  background: #1a5f99;
+  background: rgb(11,176,107);
 }
 /* line 316, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert:hover {
@@ -5054,12 +5059,12 @@ meta.foundation-mq-topbar {
 }
 /* line 379, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
-  font-weight: normal;
+  font-weight: 400;
   padding: 8px 15px;
 }
 /* line 382, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: normal;
+  font-weight: 400;
 }
 /* line 387, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 {
