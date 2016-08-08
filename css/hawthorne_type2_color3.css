@@ -39,6 +39,16 @@ Blog
 ==================================================================================================*/
 
 
+/*.ruby-logo:hover:after {
+  content: url(../img/ruby.png);
+  display: block;
+}*/
+
+/*a:hover:after {
+    content: url(image/circle.PNG); /* no need for qoutes */
+    display: block;
+}*/
+
 /* line 28, ../scss/master/_blog.scss */
 aside.blog-sidebar h5 {
   text-align: center;
@@ -4332,11 +4342,21 @@ td {
 }
 
 .skills-table td {
-  padding-bottom:10px;
-  padding-right:30px;
+
+  padding-bottom:20px;
+  padding-right:40px;
 }
 
+.skills-table td img {
+  width: 75px;
+  height: 75px;
+}
 
+.skills-text {
+  text-align: center;
+  margin-top: 8px;
+  color: rgb(100,100,100);
+}
 
 /* Default Link Styles */
 /* line 152, ../bower_components/foundation/scss/foundation/components/_type.scss */
