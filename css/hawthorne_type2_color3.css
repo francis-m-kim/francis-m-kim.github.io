@@ -4350,6 +4350,12 @@ td {
 .skills-table td img {
   width: 75px;
   height: 75px;
+  -moz-filter:grayscale(25%);
+  -webkit-filter:grayscale(25%);
+  -o-filter:grayscale(25%);
+  -ms-filter:grayscale(25%);
+  filter:grayscale(25%);
+
 }
 
 .skills-text {
