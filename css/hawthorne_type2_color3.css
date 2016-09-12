@@ -44,12 +44,20 @@ Blog
   display: block;
 }*/
 
-/*a:hover:after {
-    content: url(image/circle.PNG); /* no need for qoutes */
-    display: block;
-}*/
 
-/* line 28, ../scss/master/_blog.scss */
+.project-title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+
+.vid-container { }
+
+.vid {
+  width: 100%;
+}
+
 aside.blog-sidebar h5 {
   text-align: center;
 }
