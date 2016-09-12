@@ -50,9 +50,13 @@ Blog
   margin-bottom: 15px;
 }
 
+.breath {
+  margin-bottom: 20px;
+}
 
+.vid-container {
+}
 
-.vid-container { }
 
 .vid {
   width: 100%;
