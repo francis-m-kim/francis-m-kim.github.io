@@ -50,36 +50,55 @@ Set the type and color theme here - the Pro version contains additional themes -
 	</div>
 </div>
 
+
 <div class="row">
 
-  <div class="small-12 medium-12 large-12 columns">
-    <div class="vid-container">
-      <video class="vid" controls>
-        <source src="dictionary.mov">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+  <div class="small-12 medium-12 large-12 columns breath">
+		<h2>Fraction</h2>
+		<p>
+			Fraction is an app built in Max/MSP/Jitter that takes images and churns them into three part polyphony.
+			It takes still images and reads them pixel-column by column and then when it has reached the last column loops back to the first.
+			The column is broken into three vertical ranges which control separate sound generators, all in different octaves.
+			The pitch of each voice is determined by the y-value of the darkest pixel in the range.
+			The dynamic of each voice is determined by the average darkness of the range.
+			<a href="https://github.com/francis-m-kim/Max-Projects/blob/master/fraction.maxpat">View source on Github. </a>
+
+			<br><br>
+
+			The following is an abridged recording of a performance using the Fraction app.
+			The piece follows an arc form: starting from nothing, the texture gradually thickens as more marks are made on the page.
+			Then white paint is applied and the piece returns to silence.
+
+			<div class="vid-container">
+	      <video class="vid" controls>
+	        <source src="img/projects/max/fraction_abridged.mp4">
+	        Your browser does not support the video tag.
+	      </video>
+	    </div>
+
+
+		</p>
+    <img src="img/projects/max/fraction.png" alt="" />
   </div>
-
-  <div class="small-12 medium-12 large-12 columns">
-    <h2 class="project-title">Dictionary Bookmarklet</h2>
-      <ul>
-        <li> Check out the <a href="https://github.com/francis-m-kim/Dictionary-Bookmarklet/blob/master/dictionary.js" target="_blank">source code</a>. Copy it to your clipboard. </li>
-        <li> Add a page to your bookmarks bar. </li>
-        <li> Paste the source code where the bookmark's URL would normally go. </li>
-        <li> Highlight a word then click the bookmark. </li>
-        <li> Voila! </li>
-        <li> <strong>+</strong> expands the definition window, <strong>–</strong> collapses it, and <strong>×</strong> dismisses it. </li>
-        <li> Once the bookmarklet has been activated, press <strong>alt + d</strong> to define words. </li>
-        <li> Once defined, words remain highlighted. Double click for a reminder. </li>
-        <li> Revel in the definitions! </li>
-      </ul>
-  </div>
-
-
 </div>
 
+<div class="row">
 
+  <div class="small-12 medium-12 large-12 columns breath">
+		<h2>Theramouse</h2>
+		<p>
+			The theramouse is an app in two parts.
+			The first part analyzes live camera data for the most prevalent color in the feed.
+			This color determines which overtones will be allowed to be played in the next part.
+			The second part of the app is a basic sound drawing tablet, where the user can draw pitches,
+			the higher on the tablet the higher the pitch and vice versa. Dragging left and right on the tablet pans the sound.
+			Essentially, the theramouse is a light theremin.
+			<a href="https://github.com/francis-m-kim/Max-Projects/blob/master/theramouse.maxpat">View source on Github. </a>
+
+		</p>
+    <img src="img/projects/max/theramouse.png" alt="" />
+  </div>
+</div>
 
 
 
