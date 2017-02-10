@@ -4370,6 +4370,10 @@ td {
 
 }
 
+.skills-table td img {
+  max-width: none;
+}
+
 .skills-text {
   text-align: center;
   margin-top: 8px;
